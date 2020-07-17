@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8106798233890505311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8106798233890505309}
+  - component: {fileID: 8106798233890505308}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8106798233890505309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8106798233890505311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8106798233890505308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8106798233890505311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd22f7974d665ce49882df1c499a20cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - Name: Rocket
+    clip: {fileID: 8300000, guid: 2d76a08e7d657004580b65932f2a576b, type: 3}
+    volume: 0.5
+    pitch: 0.62
+    loop: 1
+    source: {fileID: 0}
+  - Name: Fuel
+    clip: {fileID: 8300000, guid: 43284c38b9ce68c4ca1f51b8de980b57, type: 3}
+    volume: 0.547
+    pitch: 0.61
+    loop: 0
+    source: {fileID: 0}
+  - Name: CatDamage
+    clip: {fileID: 8300000, guid: 90ce57a72e92db74e82cc19952f4f2bf, type: 3}
+    volume: 0.882
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - Name: Bip
+    clip: {fileID: 8300000, guid: 57d8a0e8bd838164a99a0cc050a24df6, type: 3}
+    volume: 0.767
+    pitch: 1.12
+    loop: 0
+    source: {fileID: 0}
+  - Name: Meteor
+    clip: {fileID: 8300000, guid: f13b645e49c83ef45afd88cc54d634b2, type: 3}
+    volume: 0.704
+    pitch: 0.63
+    loop: 0
+    source: {fileID: 0}
+  - Name: Universe1
+    clip: {fileID: 8300000, guid: 09fb8435eaa486143851890d0de74fb0, type: 3}
+    volume: 0.605
+    pitch: 0.63
+    loop: 1
+    source: {fileID: 0}
+  - Name: Runner1
+    clip: {fileID: 8300000, guid: d72a3c969d817bd4b99abfeca9fe90fd, type: 3}
+    volume: 0.6
+    pitch: 0.63
+    loop: 1
+    source: {fileID: 0}
+  - Name: GameOver
+    clip: {fileID: 8300000, guid: e9e7e9a7b34a18743890c128814596ea, type: 3}
+    volume: 1
+    pitch: 0.63
+    loop: 1
+    source: {fileID: 0}
+  - Name: Universe2
+    clip: {fileID: 8300000, guid: 206a0732646966341b732ad03cc0dab7, type: 3}
+    volume: 0.551
+    pitch: 0.63
+    loop: 1
+    source: {fileID: 0}
+  - Name: Universe3
+    clip: {fileID: 8300000, guid: bc409eb6adf5d4f45bfe860387d2f3d0, type: 3}
+    volume: 0.505
+    pitch: 0.63
+    loop: 1
+    source: {fileID: 0}
+  - Name: Runner2
+    clip: {fileID: 8300000, guid: 7226c4c34c4bcae4ebb6d02c45e56458, type: 3}
+    volume: 0.505
+    pitch: 0.63
+    loop: 1
+    source: {fileID: 0}
+  - Name: StartMenu
+    clip: {fileID: 8300000, guid: 3df1c373488a815479626d290331063c, type: 3}
+    volume: 0.505
+    pitch: 0.63
+    loop: 1
+    source: {fileID: 0}

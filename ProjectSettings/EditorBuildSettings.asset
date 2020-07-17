@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/LogoScene.unity
+    guid: 2a42ae27b5325fe48bddc8ad38fc5f6e
+  - enabled: 1
+    path: Assets/StartMenu.unity
+    guid: 5f2ca6c15a110e34a93f64c50c74ebde
+  - enabled: 1
+    path: Assets/FullGame2.unity
+    guid: 4ef2341313c0b804b8d3938f7f1ee5f6
+  - enabled: 1
+    path: Assets/HighScores.unity
+    guid: 11660b7fa3099c842a03ee4f43f8cf40
+  m_configObjects: {}

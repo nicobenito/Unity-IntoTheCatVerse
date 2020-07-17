@@ -1,0 +1,6 @@
+/Library
+*.apk
+*.aab
+/ignored
+/.vscode
+/.vs
